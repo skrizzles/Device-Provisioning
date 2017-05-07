@@ -7,6 +7,8 @@ if (Get-Command choco -errorAction SilentlyContinue)
     iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))    
 }
 
+@echo off
+
 choco install -y  7zip
 choco install -y  7zip.install
 choco install -y  android-sdk
