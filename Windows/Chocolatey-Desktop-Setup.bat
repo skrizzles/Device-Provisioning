@@ -1,10 +1,10 @@
 Set-ExecutionPolicy Unrestricted
 
-if (Get-Command REM choco -errorAction SilentlyContinue)
+if (Get-Command choco -errorAction SilentlyContinue)
 {
-    Write-Host "REM chocolate is already installed"
+    Write-Host "Chocolate is already installed"
 }else{
-    iex ((new-object net.webclient).DownloadString('https://REM chocolatey.org/install.ps1'))    
+    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))    
 }
 
 @echo off
@@ -18,8 +18,8 @@ REM choco install -y autohotkey.portable
 REM choco install -y autoit.commandline
 REM choco install -y calibre
 REM choco install -y baregrep
-REM choco install -y REM chocolatey
-REM choco install -y REM chocolateyGUI
+REM choco install -y chocolatey
+REM choco install -y ChocolateyGUI
 REM choco install -y cpu-z
 REM choco install -y DotNet4.5
 REM choco install -y DotNet4.5.1
@@ -69,7 +69,7 @@ REM choco install -y powershell-packagemanagement
 REM choco install -y docfetcher REM DocFetcher is an Open Source desktop search application: It allows you to search the contents of files on your computer.
 REM choco install -y tbox REM TBox is powerful tool with a big set of plugins, that help me and my friends work much faster. This tool help me with my huge unit tests, with managing a lot of projects, automate all routine daily actions
 REM choco install -y bulk-crap-uninstaller
-REM choco install -y hot-REM chocolatey REM Hot REM chocolatey is a graphical user interface (GUI) for REM chocolatey
+REM choco install -y hot-chocolatey REM Hot chocolatey is a graphical user interface (GUI) for Chocolatey
 REM choco install -y nfopad REM NFOPad is a small, fast and flexible combined nfo viewer and text editor.
 REM choco install -y termite REM RS232 terminal
 REM choco install -y regalyzer REM RegAlyzer is a tool to browse and change the registry.
@@ -131,7 +131,7 @@ REM choco install -y osh-github REM PowerShell cmdlet helpers for working with t
 REM choco install -y powertab REM Powertab is an extension of the PowerShell tab expansion feature.
 REM choco install -y dsc.powershellcommunity REM Desired State Configuration Modules to augment the initial offering in PowerShell V4
 REM choco install -y powershell-packagemanagement
-REM choco install -y au REM AU is Powershell module that helps you to automate REM chocolatey package updates. 
+REM choco install -y au REM AU is Powershell module that helps you to automate Chocolatey package updates. 
 REM choco install -y powershellhere REM Adds an 'Open PowerShell Here' option to the right click menu of Windows Explorer when right clicking folders, drives or the background of an explorer window.
 REM choco install -y installwindowsimage.powershell REM The Install-WindowsImage PowerShell script uses the wimgapi.dll in Windows 7 or Windows Server 2008 R2 to apply a Windows image in a .wim file to a specified location. The script can be used to apply a Windows 7 or Windows Server 2008 R2 .wim image to a Virtual Hard Disk (VHD) used for native VHD boot or to boot in a Hyper-V virtual machine.
 REM choco install -y powergist REM PowerGist is a quick project to create a nice addin for the Powershell ISE to Edit, Run and Update Gists.
@@ -160,7 +160,7 @@ REM choco install -y qdir REM Q-Dir (the Quad Explorer) makes your files and fol
 REM choco install -y setpoint REM driver and config tool for logitech mice
 REM choco install -y windowssystemcontrolcenter REM Install, update, execute, and organize the utilities from various system utility suites. This edition of WSCC supports the following utility suites: - Windows Sysinternals Suite (including support for Sysinternals Live service) - NirSoft Utilities The setup packages are downloaded from the author's website.
 REM choco install -y textify REM Textify was created to solve this problem: you can point your mouse over the text, click on the mouse shortcut (Shift + Middle click by default), and get a selectable view of the text.
-REM choco install -y REM chocolatey-core.extension
+REM choco install -y chocolatey-core.extension
 REM choco install -y nodejs.install
 REM choco install -y vlc REM vlc media player
 REM choco install -y putty.install
@@ -218,7 +218,7 @@ REM choco install -y netfx-repair-tool REM This tool troubleshoots common issues
 REM choco install -y software-ideas-modeler REM Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support. Thanks to Dušan, the author, for supporting this package.
 
 REM choco install -y clipgrab REM ClipGrab is a free software for downloading and converting online videos from many sites like YouTube or Vimeo. ClipGrab can download from the following sites: YouTube, Clipfish, Collegehumor, Dailymotion, MyVideo, MySpass, Sevenload, Tudou, Vimeo. Downloaded videos can be converted to the following file formats: WMV, MPEG4, OGG Theora, MP3
-REM choco install -y exiftoolgui REM ExifToolGUI is a GUI front-end for [exiftool](https://REM chocolatey.org/packages/exiftool) to view metadata information with some editing features. 
+REM choco install -y exiftoolgui REM ExifToolGUI is a GUI front-end for [exiftool](https://chocolatey.org/packages/exiftool) to view metadata information with some editing features. 
 REM choco install -y soluto REM With Soluto you can discover more about your device, what takes up space, what drains your battery, which apps are recommended for you and much more. You can locate your device if it's lost, secure your phone for safe browsing with anti-virus, back up your device so your data will always be safe and more. 
 REM choco install -y sharpkeys REM SharpKeys is a utility that manages a Registry key that allows Windows to remap one key to any other key. Included in the application is a list of common keyboard keys and a Type Key feature to automatically recognize most keyboard keys.
 REM choco install -y inputdirector REM Input Director is a Windows application that lets you control multiple Windows systems using the keyboard/mouse attached to one computer. 
